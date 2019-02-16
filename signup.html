@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/global.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12"></div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <!--start form-->
+        <form class="form-container" action="/register.php" method="post">
+        <h1>Sign Up</h1>
+
+        <div class="form-group">
+          <label for="username">Username*</label>
+          <input name="username" type="Name" class="form-control" id="username" placeholder="Username" required>
+        </div>
+
+       	  <div class="form-group">
+            <label for="fullname">Full Name*</label>
+            <input name="fullname" type="Name" class="form-control" id="fullname" placeholder="Full Name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input name="email" type="email" class="form-control" id="email" placeholder="Email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password*</label>
+            <input name="pass" type="password" class="form-control" id="password" placeholder="Password" required>
+          </div>
+          <a href="login.html" style="color:dodgerblue">Login</a>
+          <p></p>
+          <button type="submit" class="btn btn-success btn-block">Submit</button>
+        </form>
+        <!--end form-->
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12"></div>
+    </div>
+  </div>
+  </body>
+</html>
